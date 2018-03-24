@@ -1,0 +1,51 @@
+$main-color: #4d981a;
+
+.teamsetting {
+
+	.padding-top {
+		padding-top: 15px;
+	}
+
+	.heading-me {
+		font-size: 20px;
+		line-height: 28px;
+		color: rgb(68,68,68);
+		font-weight: bold;
+	}
+
+	.card-me {
+		box-shadow: none !important;
+	}
+
+	.border-me {
+		border: 1px solid #ddd;
+	}
+
+	.no-padding {
+		padding: 0px !important;
+	}
+
+	.teamsetting-content {
+		.leftside {
+			height : 100%;
+			min-height: 100vh;
+			border : 1px solid #ddd;
+			& > ul {
+				padding: 1px;
+				li {
+					text-align: center;
+					width: 200px;
+					a {
+						padding: 15px;
+						&:before {
+						    border-color: $main-color;
+						}
+					}
+				}
+			}
+			.nav-tabs + .tab-content {
+				padding: 0px;
+			}
+		}	
+	}
+}

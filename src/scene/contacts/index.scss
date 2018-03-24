@@ -1,0 +1,298 @@
+#contacts {
+	
+	#group_bottom {
+		width: 25px;
+	}
+	i {
+		cursor : pointer;
+		font-size: 15px;
+		margin-top: -5px;
+	}
+
+
+	#bottom-select {
+		position: absolute;
+		margin-top: 7px;
+	}
+
+	select {
+		padding: 0px;
+		margin-top: 5px;
+	}
+
+	.table-responsive {
+		padding: 20px;
+		td {
+			vertical-align : middle;
+		}
+	}
+
+	.border {
+		border : 1px solid #ddd;
+		padding: 20px;
+	}
+
+	.bottom {
+		padding-left: 20px;
+	}
+
+	div .top {
+		margin : 15px 15px 0px 15px;
+
+	}
+
+	#title {
+		padding : 15px;
+	}
+
+	.btms {
+		padding-bottom: 40px;
+		padding-right : 10px;
+	}
+
+	.bulk_action {
+		height : 26px;
+		margin-left : 10px;
+	}
+
+	.selection {
+		height : 26px;
+	}
+
+	.sel_box {
+		margin-left : 3px;
+		margin-top : 0px;
+		display : inline-flex;
+		label {
+			margin: 5px 0px 0px 10px !important;
+		}
+	}
+
+
+	#detail {
+		width : 300px;
+		padding : 20px;
+		li {
+			display: inline-block;
+			width : 100%;
+			padding : 5px;
+		}
+	}
+
+	.checkandedit {
+		display : inline-flex;
+		margin-left: 4px;
+	}
+
+	.edit-icon {
+		color : black;
+	}
+
+	.sel_box {
+		display : inline-flex;
+		label {
+			margin-top : 15px;
+		}
+
+		.header-dropdown {
+			padding : 0px;
+			margin-right : 20px;
+		}
+	}
+
+	.sel1 {
+		display: inline-flex;
+		margin-right: 10px;
+		.waves-effect {
+			width : 160px;
+			}
+		button {
+		}
+		.dropdown-menu {
+			top : 66px;
+			min-width : 185px;
+		}
+	}
+	.sel2 {
+		display: inline-flex;
+		margin-right: 10px;
+		button {
+		}
+		.dropdown-menu {
+			top : 66px;
+			min-width : 222px;
+		}
+	} 
+
+	.sel-block {
+		padding-left : 0px;
+	}
+
+	img.avatar {
+		width: 50px;
+		border-radius: 50%;
+		margin-right : 20px;
+	}
+	label:after {
+					width : 15px;
+					height: 15px;
+				}
+
+	label:before {
+		margin-left : -1px;
+	}
+
+	.mark {
+		width: 53px;
+		height: 53px;
+		margin-right : 20px;
+		text-align: center;
+	    border-radius: 10rem;
+	    background-color: #bff216;
+	    color: white;
+	    font-size: 20px;
+	    line-height : 45px;
+	}
+
+	.sidebar {
+		overflow-y : auto;
+		margin-top	: 20px;
+		position : inherit;
+
+		.sidebar_title {
+			font-size : 20px;
+			font-weight : bold;
+		}
+
+		#circle {
+			margin-top : 20px;
+
+			i {
+				font-size : 20px;
+				margin-top : -10px;
+			}
+
+			.htxt {
+				font-size  : 16px;
+				color : #FFC107;
+			}
+
+			img.avatar {
+				width: 60px;
+				border-radius: 50%;
+				margin-right: 10px;
+			}
+
+			.mark {
+				width: 15px;
+				height: 15px;
+				margin-top: 0px;
+				margin-right: 10px;
+				margin-bottom: 0px;
+				text-align: center;
+			    border-radius: 10rem;
+			}
+
+			.list-group-item {
+				padding-left : 0px;
+				border : none;
+				span {
+					margin-left : 10px;
+				}
+
+				label:after {
+					width : 15px;
+					height: 15px;
+				}
+
+				label:before {
+					margin-top : -1px;
+					margin-left : -1px;
+				}
+			}
+
+			.list-group-item{
+				display : inline-flex;
+				width: 100%;
+				.check_circle {
+					line-height: 17px;
+    				font-size: 16px;
+					a{
+						color : black;
+					}
+				}
+			}
+		}
+
+		#status {
+			margin-top : 20px;
+			i {
+				font-size : 20px;
+				margin-top : -10px;
+			}
+
+			img.avatar {
+				width: 60px;
+				border-radius: 50%;
+				margin-right: 10px;
+			}
+
+			.mark {
+				width: 15px;
+				height: 15px;
+				margin-top: 0px;
+				margin-right: 10px;
+				margin-bottom: 0px;
+				text-align: center;
+			    border-radius: 10rem;
+			}
+		}
+
+		#tags {
+
+		}
+
+		.htxt {
+				font-size  : 16px;
+				color : #FFC107;
+			}
+
+		.search {
+			    position:relative;
+				.search_icon{
+					position: absolute;
+					right: 0rem;
+					top: 3rem;
+					color: #ccc;
+				}
+			}
+
+			.list-group-item{
+				display : inline-flex;
+				width: 100%;
+				padding-left : 0px;
+				border : none;
+				span {
+					margin-left : 10px;
+				}
+
+				label:after {
+					width : 15px;
+					height: 15px;
+				}
+
+				label:before {
+					margin-top : -1px;
+					margin-left : -1px;
+				}
+				.check_circle {
+					line-height: 17px;
+    				font-size: 16px;
+					a{
+						color : black;
+					}
+				}
+			}
+	}
+
+}

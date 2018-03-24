@@ -1,0 +1,198 @@
+
+
+#calendar_setting_page {
+
+	.caret {
+		right: 0px;
+	}
+
+	.filter-option {
+		width: 90%;
+	}
+
+	div.myselectbox {
+		margin-top: 15px;
+	}
+	
+	.heading-me {
+		font-size: 20px;
+		line-height: 28px;
+		color: rgb(68,68,68);
+		font-weight: bold;
+	}
+
+	.heading-me-first {
+		font-size: 16px;
+		line-height: 28px;
+		color: rgb(68,68,68);
+	}
+
+	.heading-profile {
+		font-size: 16px;
+		line-height: 28px;
+		color: rgb(68,68,68);
+		font-weight: bold;
+	}
+
+	.form-select {
+		margin-top: 2px;
+	}
+
+	.border-me {
+		border: 1px solid #ddd;
+	}
+
+	.border-top {
+		border-top: 1px solid #ddd;
+	}
+
+	.border-bottom {
+		border-bottom: 1px solid #ddd;
+	}
+
+	.card-me {
+		box-shadow: none;
+	}
+
+	.margin-bottom {
+		margin-bottom: 30px;
+	}
+
+	.no-padding {
+		padding: 0px;
+	}
+
+	.padding-bottom {
+		padding-bottom: 15px;
+	}
+
+	.padding-bottom-30 {
+		padding-bottom: 30px;
+	}
+
+	.no-border-bottom {
+		border-bottom: 0px;
+	}
+
+	.padding-top {
+		padding-top: 15px;
+	}
+
+	.padding-top-60 {
+		padding-top: 60px;
+	}
+
+	.padding-bottom-60 {
+		padding-bottom: 60px;
+	}
+
+	.padding-top-30 {
+		padding-top: 30px;
+	}
+
+	.padding-right-15 {
+		padding-right: 15px;
+	}
+
+	.rounded {
+		border-radius: 50%;
+	}
+
+	.margin-top-0 {
+		margin-top: 0px;
+	}
+
+	.myselectbox {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.myselectbox > .btn {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.btn-padding {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+
+	.flexing {
+		display: flex;
+	}
+
+	.padding-top-15 {
+		padding-top: 15px;
+	}
+
+	.mail_icon {
+		height: 70px;
+	}
+
+	.label_mail {
+		padding-top: 25px;
+		padding-left: 20px;
+	}
+
+	.label_m {
+		padding-top: 25px;
+	}
+
+	.mail_select > .btn {
+		padding-top: 0px;
+	}
+
+	.btn-me {
+		margin-top: 15px;
+	}
+
+	.border-bottom {
+		border-bottom: 1px solid #ddd;
+	}
+
+	.margin-top-30 {
+		margin-top: 30px;
+	}
+
+	.black {
+		color: rgb(68,68,68);
+	}
+
+	.padding-left-right {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.i_calendar {
+		width: 18px;
+		height: 18px;
+		border-radius: 50%;
+		background-color: green;
+	}
+
+	.padding-right-60 {
+		padding-right: 60px;
+	}
+
+	.my_input {
+		padding-top: 0px;
+		padding-bottom: 4px;
+		margin-bottom: 0px;
+	}
+
+	.my_form > .form-group {
+		margin: 0px;
+		margin-top: 10px;
+		padding-top: 10px;
+		padding-bottom: 0px;
+	}
+
+	.i_trash {
+		padding-top: 14px;
+	}
+
+	.disable {
+		pointer-events:none;
+	}
+
+}

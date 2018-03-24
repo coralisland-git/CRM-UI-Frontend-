@@ -1,0 +1,12 @@
+.input {
+	.form-line:after {
+		border-bottom : 1px solid #FFC107 !important;
+	}
+	.form-group  {
+		margin-top : 0px;
+	}
+	.form-control:disabled{
+		border : none !important;
+		cursor : default;
+	}
+}

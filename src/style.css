@@ -1,0 +1,66 @@
+section.content {
+    padding-top: 65px;
+    padding-left: 255px;
+    min-height: 1280px;
+
+    @media screen and (max-width: 1170px) {
+        padding-left: 0px !important;
+        margin-left: 0 !important;
+    }
+}
+
+.custom-scroll {
+    overflow: auto;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #adadad;
+}
+
+body.stop-scrolling {
+    height: auto !important;
+    overflow: visible !important;
+}
+
+.sidebar {
+    position: absolute;
+    height: 100%!important;
+}
+
+body {
+    padding-right: 0 !important;
+}
+
+.modal-open .modal { background-color: rgba(0, 0, 0, .3); }
+
+.dropdown-menu {
+    z-index: 9 !important;
+}
+
+section.content > div {
+    margin: 0;
+}
+
+.no-left-padding {
+    padding-left: 0px;
+}
+
+.no-right-padding {
+    padding-right: 0px;
+}

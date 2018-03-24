@@ -1,0 +1,202 @@
+#contactinfo {
+
+	overflow: auto;
+
+	i {
+		font-size : 18px !important;
+	}
+
+	.header {
+		padding-top: 0px;
+		margin-top: -30px;
+		padding-bottom : 20px;
+		border-bottom : 1px solid #ddd;
+	}
+
+	img.avatar {
+		width: 100px;
+		border-radius: 50%;
+		margin-top: 58px;
+		margin-right: 10px;
+	}
+
+	.border {
+		border : 1px solid #ddd;
+		padding: 20px;
+	}
+
+
+	#title {
+		margin-top : -30px;
+		display : inline-grid;
+		margin : 5px 0px 0px 15px;
+		border-right : 1px solid #ddd;
+		padding-right : 30px;
+		span {
+			margin : 0px;
+		}
+
+		#sel-box {
+			display : inline-flex !important;
+			.sel1 {
+				display: inline-flex;
+				margin-right: 10px;
+				.waves-effect {
+					width : 160px;
+					}
+				button {
+				}
+				.dropdown-menu {
+					top : 64px;
+					min-width : 185px;
+					a {
+						min-width : 185px;
+					}
+				}
+			}
+		}
+
+		.mail {
+			color : #FFC107;
+		}
+
+		#social {
+			display : inline-flex;
+			.zmdi {
+				padding-right: 10px;
+			}
+
+			#edit {
+				color : #FFC107;
+			}
+
+			.social_active:before {
+				color : #FFC107;
+			}
+
+			.dropdown-menu.pull-right {
+				right : auto !important;
+    			left: 0 !important;
+			}
+
+			#editlist {
+				width : 300px;
+				li {
+					display: inline-flex;
+					width : 100%;
+					padding : 0px 10px 0px 20px;
+					
+					.icon {
+						width:10%;
+						padding-top : 10px !important;
+						padding-right : 0px !important;
+					}
+					.editor {
+						width: 90%;
+					}
+
+					.form-group {
+						margin-top : 0px;
+					}
+
+					.form-group.form-group-lg {
+						margin-top : 0px;
+					}
+
+					button {
+						margin-right : 20px;
+					}
+				}
+
+				#ifsc {
+					margin-left : 100px;
+				}
+
+			}
+		}
+
+	}
+
+	#separator {
+		border-right: 1px solid red;
+
+	}
+
+	#ctrls {
+		display : inline;
+		padding-left : 40px;
+		height : 150px;
+		select {
+			margin-top : 60px;
+			padding : 14px;
+		}
+
+		.sel1 {
+			display: inline-flex;
+			margin-right: 10px;
+			.waves-effect {
+				width : 110px;
+				}
+			button {
+			}
+			.dropdown-menu {
+				top : 77px;
+				min-width : 135px;
+			}
+
+		}
+
+	}
+
+	.control {
+		display : inline-flex;
+		padding : 10px 20px 10px 20px;
+		width : 50%;
+		.lab {
+			margin-top : 20px;
+			padding-right : 50px;
+			width : 30%
+		}
+
+		.frm {
+			width : 70%;
+		}
+
+		.form-group-lg {
+			margin-top : 0px;
+		}
+	}
+
+	.material-icons:hover {
+		cursor: pointer;
+	}
+
+	.bt-con{
+		margin : 50px 0px 0px 10px;
+	}
+
+	.save_bt {
+		background-color: #52e49a;
+		color : white;
+	}
+
+	#image {
+		cursor : pointer;
+	}
+
+	#file-upload {
+		display : none;
+	}
+
+	.mark {
+		width: 150px;
+		height: 150px;
+		margin-top: 0px;
+		margin-right: 10px;
+		margin-bottom: 0px;
+		text-align: center;
+	    border-radius: 10rem;
+	    cursor : pointer;
+	}
+
+}

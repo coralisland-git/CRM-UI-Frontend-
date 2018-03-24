@@ -1,0 +1,463 @@
+
+div.arrow-me:before {
+	border: solid transparent;
+    content: " ";
+    float: left;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: white;
+    border-left: none;
+    border-width: 16px;
+    margin-left: -16px;
+    top: calc(50% - 8px);
+}
+
+
+div.arrow-me-right:after {
+	border: solid transparent;
+    content: " ";
+    float: right;
+    position: absolute;
+    pointer-events: none;
+    border-left-color: white;
+    border-right: none;
+    border-width: 16px;
+    margin-left: 398px;
+    top: calc(50% - 8px);
+}
+
+
+.imgmodal.card.arrow-me ,.imgmodal.card.arrow-me-right {
+
+	width: 400px;
+	z-index: 999;
+
+	.close {
+		cursor: pointer;
+	}
+
+	.padding-top-8 {
+		padding-top: 8px;
+	}
+
+	.white {
+		color: white;
+	}
+
+	.margin-top-5 {
+		margin-top: 5px;
+	}
+
+	.margin-bottom-6 {
+		margin-bottom: 6px;
+	}
+
+	.googlecalendar .form-group {
+		margin-top: 0px;
+	}
+
+	.green {
+		background-color: #0b7f43;
+	}
+
+	.no-bottom-border {
+		border: 0px !important;
+	}
+
+	.mainpopmodal .form-group {
+		margin-top: 0px;
+	}
+
+	.img-profile {
+		.form-group {
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+	}
+
+	.no-padding {
+		padding: 0px;
+	}
+
+	.content {
+		display: flex;
+		padding: 0;
+		.col-sm-4 img {
+			height: 100%;
+		}
+	}
+
+	.first {
+		padding: 0 30px 0 0;
+	}
+
+	.last {
+		padding: 0 0 0 30px;
+	}
+
+	.form-group label {
+		margin: 0;
+	}
+
+}
+
+
+.mainpopmodal.card {
+	
+	width: 400px;
+	z-index: 999;
+
+	.close {
+		cursor: pointer;
+	}
+
+	.white {
+		color: white;
+	}
+
+	.padding-top-8 {
+		padding-top: 8px;
+	}
+
+	.margin-top-5 {
+		margin-top: 5px;
+	}
+
+	.margin-bottom-6 {
+		margin-bottom: 6px;
+	}
+
+	.googlecalendar .form-group {
+		margin-top: 0px;
+	}
+
+	.green {
+		background-color: #0b7f43;
+	}
+
+	.no-bottom-border {
+		border: 0px !important;
+	}
+
+	.mainpopmodal .form-group {
+		margin-top: 0px;
+	}
+
+	.img-profile {
+		.form-group {
+			margin-top: 0px;
+		}
+	}
+
+	.no-padding {
+		padding: 0px;
+	}
+
+	#event_modal {
+		.form-group {
+			margin: 10px 0 0 0;
+		}
+	}
+
+	.form-group label {
+		margin: 0;
+	}
+
+}
+
+
+#googlecalendarmodal {
+
+	width: 300px;
+	z-index: 999;
+
+	.bootstrap-select {
+		width: 100%;
+	}
+
+	.close {
+		cursor: pointer;
+	}
+
+	.white {
+		color: white;
+	}
+
+	.margin-top-5 {
+		margin-top: 5px;
+	}
+
+	.margin-bottom-6 {
+		margin-bottom: 6px;
+	}
+
+	.googlecalendar .form-group {
+		margin-top: 0px;
+	}
+
+	.green {
+		background-color: #0b7f43;
+	}
+
+	.no-bottom-border {
+		border: 0px !important;
+	}
+
+	.mainpopmodal .form-group {
+		margin-top: 0px;
+	}
+
+	.img-profile {
+		.form-group {
+			margin-top: 0px;
+		}
+	}
+
+	.no-padding {
+		padding: 0px;
+	}
+
+	.padding-top-8 {
+		padding-top: 8px;
+	}
+
+}
+
+
+#addcalendarmodal {
+	
+
+	#colorpicker {
+		width: 100px;
+		background-color: red;
+		border: 0px;
+	}
+
+	width: 300px;
+	z-index: 999;
+
+	.bootstrap-select {
+		width: 100%;
+	}
+
+	.close {
+		cursor: pointer;
+	}
+
+	.white {
+		color: white;
+	}
+
+	.margin-top-5 {
+		margin-top: 5px;
+	}
+
+	.margin-bottom-6 {
+		margin-bottom: 6px;
+	}
+
+	.googlecalendar .form-group {
+		margin-top: 0px;
+	}
+
+	.green {
+		background-color: #0b7f43;
+	}
+
+	.no-bottom-border {
+		border: 0px !important;
+	}
+
+	.mainpopmodal .form-group {
+		margin-top: 0px;
+	}
+
+	.img-profile {
+		.form-group {
+			margin-top: 0px;
+		}
+	}
+
+	.no-padding {
+		padding: 0px;
+	}
+
+	.padding-top-8 {
+		padding-top: 8px;
+	}
+
+}
+
+
+
+#listmodal {
+
+	.body {
+		padding: 0px;
+	}
+
+	.list-group {
+		margin-bottom: 12px;
+	}
+
+	.no-border {
+		border: 0px !important;
+	}
+
+	.mine-col {
+		padding: 0px;
+	}
+	
+	width: 270px;
+	z-index: 999;
+
+	.white {
+		color: white;
+	}
+
+	a {
+		color: #aaa;
+	}
+
+	.item-burger:hover {
+		background-color: #03A9F4;
+		color: white;
+	}
+
+	#item-popup:hover {
+		background-color: #ebc40e;
+		
+		.margin-top-5 {
+			color: white;		
+		}
+		.bar {
+	    	background-color: white !important;
+		}
+		.popup-text {
+				color: white;
+		}
+	}
+
+
+	.margin-top-5 {
+		margin-top: 5px;
+		color: #222;
+
+		a {
+			color: #222;
+		}
+	}
+
+	.margin-top-5:hover {
+		color: #fff !important;
+
+		a {
+			color: #fff;
+		}	
+	}
+
+	.margin-bottom-6 {
+		margin-bottom: 6px;
+	}
+
+	.bar {
+		width: 3px !important;
+		height: 18px;
+	}
+
+	.popup-text {
+		color: black;
+	}
+
+	.googlecalendar .form-group {
+		margin-top: 0px;
+	}
+
+	.green {
+		background-color: #0b7f43;
+	}
+
+	.no-bottom-border {
+		border: 0px !important;
+	}
+
+	.mainpopmodal .form-group {
+		margin-top: 0px;
+	}
+
+	.img-profile {
+		.form-group {
+			margin-top: 0px;
+		}
+	}
+
+	.no-padding {
+		padding: 0px;
+	}
+
+}
+
+
+#addcolormodal {
+	
+
+	#addcolorpicker {
+		width: 100px;
+		background-color: red;
+		border: 0px;
+	}
+
+	width: 300px;
+	z-index: 999;
+
+	.bootstrap-select {
+		width: 100%;
+	}
+
+	.close {
+		cursor: pointer;
+	}
+
+	.white {
+		color: white;
+	}
+
+	.margin-top-5 {
+		margin-top: 5px;
+	}
+
+	.margin-bottom-6 {
+		margin-bottom: 6px;
+	}
+
+	.googlecalendar .form-group {
+		margin-top: 0px;
+	}
+
+	.green {
+		background-color: #0b7f43;
+	}
+
+	.no-bottom-border {
+		border: 0px !important;
+	}
+
+	.mainpopmodal .form-group {
+		margin-top: 0px;
+	}
+
+	.img-profile {
+		.form-group {
+			margin-top: 0px;
+		}
+	}
+
+	.no-padding {
+		padding: 0px;
+	}
+
+	.padding-top-8 {
+		padding-top: 8px;
+	}
+
+}

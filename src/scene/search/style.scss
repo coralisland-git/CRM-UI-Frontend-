@@ -1,0 +1,119 @@
+
+
+
+#search_result_page {
+	overflow-x: hidden;
+
+	.heading-me {
+		font-size: 20px;
+		line-height: 28px;
+		color: rgb(68,68,68);
+		font-weight: bold;
+	}
+
+	.heading-profile {
+		font-size: 16px;
+		line-height: 28px;
+		color: rgb(68,68,68);
+		
+	}
+
+	.user_name {
+		padding-top: 10px;
+		color: rgb(68,68,68);
+		font-weight: bold;
+	}
+
+	.property_name {
+		color: rgb(68,68,68);
+		font-weight: bold;
+	}
+
+	.padding-top {
+		padding-top: 15px;
+	}
+
+	.padding-bottom {
+		padding-bottom: 15px;
+	}
+
+	.card-me {
+		box-shadow: none;
+	}
+
+	.no-padding {
+		padding: 0px;
+	}
+
+	.flexing {
+		display: flex;
+		align-items: center;
+	}
+
+	.profile_img {
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+	}
+
+	.other_img {
+		width: 100%;
+	}
+
+	.avatar {
+		min-width: 42px;
+		height: 42px;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		>span {
+			color: #fff;
+			font-size: 20px;
+			font-weight: 800;
+		}
+	}
+	.property_img {
+		min-width: 80px;
+		min-height: 60px;
+		width: 160px;
+	}
+
+	.img-center {
+			margin: auto 0;
+	}
+
+	.loader {
+		// top: 5%;
+		border: 16px solid #f3f3f3; /* Light grey */
+		border-top: 16px solid #3498db; /* Blue */
+		border-radius: 50%;
+		width: 120px;
+		height: 120px;
+		animation: spin 2s linear infinite;
+		left: 35%;
+		position: absolute;
+		z-index: 100;
+	}
+
+	.flex-table-center {
+		display: table;
+		width: 100%;
+		label {
+			display: table-row;
+		}
+	}
+
+	.pointer-cursor {
+		cursor: pointer;
+	}
+
+	.half-content {
+		width: 50%;
+	}
+
+	.font-bold {
+		font-weight: bold;
+	}
+
+}

@@ -1,0 +1,79 @@
+@media (min-width: 2561px) {
+		.fc-day-grid-container.fc-scroller {
+			height: 30em !important;
+		}
+		.fc-day-number {
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+	}
+
+	@media (max-width: 2560px) and (min-width: 2000px) {
+		.fc-day-grid-container.fc-scroller {
+			height: 19em !important;
+		}
+		.fc-day-number {
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+	}
+
+	@media (max-width: 1999px) and (min-width: 1441px) {
+		.fc-day-grid-container.fc-scroller {
+			height: 15em !important;
+		}
+		.fc-day-number {
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+	}
+
+	@media (max-width: 1440px) and (min-width: 1025px) {
+		.fc-day-grid-container.fc-scroller {
+			height: 15em !important;
+		}
+		.fc-day-number {
+			padding-top: 0px;
+			padding-bottom: 0px;
+		}
+	}
+
+	@media (max-width: 1024px) and (min-width: 769px) {
+		.fc-day-grid-container.fc-scroller {
+			height: 15em !important;
+		}
+		.fc-day-number {
+			padding-top: 0px;
+			padding-bottom: 0px;
+		}
+	}
+
+	@media (max-width: 768px) and (min-width: 426px) {
+		.fc-day-grid-container.fc-scroller {
+			height: 15em !important;
+		}
+		.fc-day-number {
+			padding-top: 0px;
+			padding-bottom: 0px;
+		}
+	}
+
+	@media (max-width: 425px) and (min-width: 376px) {
+		.fc-day-grid-container.fc-scroller {
+			height: 15em !important;
+		}
+		.fc-day-number {
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+	}
+
+	@media (max-width: 375px) and (min-width: 319px) {
+		.fc-day-grid-container.fc-scroller {
+			height: 16em !important;
+		}
+		.fc-day-number {
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+	}

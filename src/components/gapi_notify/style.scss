@@ -1,0 +1,19 @@
+.gapi_notify {
+    position: fixed;
+    top: 0;
+    height: 64px;
+    background-color: #cc0c0cec;
+    color: #fff;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    .here_gnotify {
+    	font-weight: bold;
+    	cursor: pointer;
+    	font-size: 17px;
+		text-decoration: underline;
+    }
+}

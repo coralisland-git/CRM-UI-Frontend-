@@ -1,0 +1,63 @@
+.accountstatus {
+	.statustitle {
+		margin-bottom: 25px;
+	}
+	.progress {
+		height: 12px !important;
+		position: relative;
+		overflow: visible !important;
+		border-radius: 5px;
+		.progress-bar {
+			border-radius: 5px;
+			background-color: #44e5ca;
+		}
+		.progressindicator {
+			position: absolute;
+			top: -25px;
+			border-radius: 2px;
+			.progressindicatortext {
+				background-color: #44e5ca;
+				display: block;
+				padding: 0 3px;
+				color: #fff;
+			}
+			.progressindicatorarrow {
+				content: "";
+				margin: auto;
+				border-left: 5px solid transparent;
+				border-right: 5px solid transparent;
+				border-top: 5px solid #44e5ca;
+				width: 0;
+				height: 0;
+			}
+		}
+	}
+	.item {
+		display: flex;
+		color: #999999;
+		height: 40px;
+		>div {
+			display: inline-block;
+		}
+		.checker {
+			margin-right: 5px;
+			display: flex;
+			align-items: center;
+		}
+		.itemtext {
+			align-self: center;
+		}
+		&.done {
+			color: #999999;
+			.checker {
+				color: #44e5ca;
+			}
+		}
+		&:not(.done) {
+			text-decoration: none;
+			cursor: pointer;
+		}
+	}
+
+	padding-bottom: 20px;
+}

@@ -1,0 +1,20 @@
+.mydropdown {
+		width : 100%;
+		display: inline-flex !important;
+		margin-right: 10px;
+		.waves-effect {
+			width : 90%;
+			text-align : left;
+			}
+		.dropdown-toggle {
+			width : 10%;
+		}
+		.dropdown-menu {
+			top : 66px;
+			min-width : 100%;
+			a {
+				padding-top : 3px;
+				padding-bottom : 3px;
+			}
+		}
+	}

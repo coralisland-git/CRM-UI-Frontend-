@@ -1,0 +1,98 @@
+.addModal {
+
+	text-align : left !important;
+	.add-circle{
+		width: 160%;
+		.content {
+			padding-right : 60px;
+		}
+
+		.form-group .form-line:after {
+			border-bottom : 3px solid #FFC107;
+		}
+	}
+
+	.modal_control {
+		padding: 20px 0px 0px 0px ;
+		margin-left : 5px;
+	}
+
+	.modal_control .form-group{
+		margin: 0px;
+	}
+
+	.header {
+		padding: 20px;
+		border-bottom: 1px solid #ddd;
+	}
+
+	.footer {
+		padding-bottom: 50px;
+	}
+
+	.footer button{
+		width : 150px;
+	}
+
+	.create_bt {
+		background-color : #FFC107 !important;
+		color : white !important;
+		left : -20px;
+	}
+
+	.circle_colorpicker {
+		 .card {
+			width : 70% ;
+			.white {
+				color : #ffffff;
+			}
+		}
+	}
+
+	.colorpickercomponent {
+		.list-group {
+			margin-bottom : 0px;
+		}
+		.list-group-item {
+			margin: 0px 10px 0px 10px;
+		}
+	}
+
+	i {
+		font-size : 16px !important;
+	}
+
+	.font-bold {
+		line-height: 40px;
+	}
+	.border {
+		border : 1px solid #ddd;
+		padding: 20px;
+	}
+
+	.search-box {
+		.form-control {
+			margin-bottom: 0;
+		}																																											
+	}
+
+	.body {
+		padding: 0px !important;
+	}
+
+	.list-group {
+		display: inline-block !important;
+	}
+
+	.list-group-item {																			
+		margin : 0px !important;
+		padding : 10px !important;
+		label {
+			color : white !important;
+		}
+	}
+
+	.right-side {
+		right : -20px;
+	}
+}

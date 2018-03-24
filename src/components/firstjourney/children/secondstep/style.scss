@@ -1,0 +1,20 @@
+.secondstep {
+	button {
+		div {
+			display: inline;
+			line-height: 40px;
+		}
+		display: inline-block;
+		width: 100%;
+		text-align: left;
+		span {
+			margin: 0 !important;
+			display: inline-block;
+			z-index: 20;
+		}
+	}
+
+	.inputgroup {
+		text-align: left;
+	}
+}

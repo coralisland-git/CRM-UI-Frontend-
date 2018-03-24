@@ -1,0 +1,133 @@
+#newleads {
+	padding: 0px 20px 0px 20px;
+
+	#group_bottom {
+		width: 25px;
+	}
+
+
+	#bottom-select {
+		
+		margin-top: 7px;
+	}
+
+	select {
+		padding: 0px;
+		margin-top: 5px;
+	}
+
+	.table-responsive {
+		padding: 20px;
+	}
+
+	.border {
+		border : 1px solid #ddd;
+		padding: 20px;
+	}
+
+	.top {
+		border-bottom: 1px solid #ddd;
+		padding-bottom: 20px;
+		margin: 20px;
+	}
+
+	.bottom {
+		padding-left: 20px;
+	}
+
+
+	.btms {
+		padding-left: 10px;
+		padding-bottom: 40px;
+	}
+
+	.list-group {
+		display: inline-flex;
+	}
+
+	.list-group-item {
+		margin: 0px;
+	}
+
+	#reminder {
+		color: #ddd;
+	}
+
+	#reminder_num {
+		height: 60px;
+		width: 60px;
+		background-color: #FFC107;
+		border-left: none;
+		text-align: center;
+		padding-top: 15px;
+	}
+	#reminder_txt {
+		height: 60px;
+		width : 200px;
+		padding-top: 15px;
+		border-right: none;
+	}
+
+	#count {
+		color: #fff;
+	}
+
+	#add_bt {
+		margin-top: 3px;
+	}
+
+	.control {
+		padding-bottom: 10px;
+	}
+
+	.search .form-group{
+		margin-top: 4px;
+	}
+
+	.search_icon {
+		margin-top: 15px;
+	}
+
+	.mark {
+		width: 45px;
+		height: 45px;
+		margin-top: 0px;
+		margin-right: 20px;
+		text-align: center;
+		vertical-align: center;
+	    border-radius: 10rem;
+	    background-color: #FFC107;
+	}
+
+	.mark h4{
+		margin-top: 6px;
+		color: #fff;
+	}
+
+	.name_mark {
+		width: 40px;
+		height: 40px;
+		margin-top: 0px;
+		margin-right: 10px;
+		margin-bottom: 0px;
+		text-align: center;
+	    border-radius: 10rem;
+	    background-color: #03A9F4;
+	}
+
+	.name_mark h4 {
+		margin-left: -5px;
+		margin-top: 8px;
+		color: #fff;
+	}
+
+	td {
+		padding-top: 10px;
+	}
+
+	i {
+		cursor : pointer;
+	}
+
+	
+}

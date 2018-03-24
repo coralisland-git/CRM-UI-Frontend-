@@ -1,0 +1,185 @@
+#addcontacts {
+	height : 100%;
+	width : 100%;
+	display : inline-flex;
+
+	i {
+		cursor : pointer;
+	    font-size: 14px;
+	}
+	#left_side {
+		width : 73%;
+		display: inline-block;
+		margin : 30px;
+	}
+
+	#right_side {
+		width : 21%;
+		margin : 30px 30px 30px 0px;
+		border : 1px solid #ddd;
+		padding : 20px;
+
+		#team {
+			.htxt {
+				display : inline-grid;
+
+				span {
+					margin : 5px;
+				}
+			}
+			i {
+				margin-top : -10px;
+			}
+
+			img.avatar {
+				width: 60px;
+				border-radius: 50%;
+				margin-right: 10px;
+			}
+
+			.body {
+				margin-top : 20px;
+				padding-top : 20px;
+				border-top : 1px solid #ddd;
+				border-bottom : 1px solid #ddd;
+			}	
+
+			.footer {
+				margin-top : 20px;
+				padding-bottom : 30px;
+				border-bottom : 1px solid #ddd;
+			}
+
+			table {
+				margin-top : 30px;
+				td{
+					border : 0px;
+					i {
+						padding-top : 10px;
+					}
+				}
+
+				.tools {
+					text-align : right;
+				}
+
+				.name {
+					color : #FFC107;
+				}
+			}
+		}
+
+		#circle {
+			margin-top : 20px;
+			i {
+				margin-top : -10px;
+			}
+
+			img.avatar {
+				width: 60px;
+				border-radius: 50%;
+				margin-right: 10px;
+			}
+
+			.body {
+				margin-top : 20px;
+				border-bottom : 1px solid #ddd;
+			}	
+
+			.mark {
+				width: 15px;
+				height: 15px;
+				margin-top: 0px;
+				margin-right: 10px;
+				margin-bottom: 0px;
+				text-align: center;
+			    border-radius: 10rem;
+			}
+
+			.list-group-item {
+				padding-left : 0px;
+				border : none;
+				span {
+					margin-left : 10px;
+				}
+
+				label:after {
+					width : 15px;
+					height: 15px;
+				}
+
+				label:before {
+					margin-top : -1px;
+					margin-left : -1px;
+				}
+			}
+
+			.list-group-item{
+				display : inline-flex;
+				width: 100%;
+				.check_circle {
+					line-height: 17px;
+					font-size: 16px;
+					a{
+					color : black;
+					}
+				}
+			}
+
+
+		}
+
+		#document {
+			margin-top : 20px;
+			.htxt {
+				color : #FFC107;
+			}
+
+			.file {
+				margin-top : 10px;
+			}
+
+			button i {
+				margin-top : -10px;
+			}
+		}
+
+		#tags {
+			margin-top : 20px;
+			padding-top : 20px;
+			border-top : 1px solid #ddd;
+			.htxt {
+				color : #FFC107;
+			}
+
+			.file {
+				margin-top : 10px;
+			}
+			
+			button i {
+				margin-top : -10px;
+			}
+
+			.tlist {
+				margin-top	: 20px;
+				span {
+					margin-right : 10px;
+				}
+			}
+		}
+	}
+
+	
+
+	#team {
+
+	}
+
+	#document {
+	
+	}
+
+	#tags {
+
+	}
+}

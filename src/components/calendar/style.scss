@@ -1,0 +1,53 @@
+#calendar {
+
+	.fc-scroller {
+		height: inherit !important;
+	}
+
+	.fc-title {
+		cursor: pointer;
+	}
+
+	.fc-toolbar {
+		background: #03A9F4;
+		border: 0px;
+
+		.fc-button {
+			color: #ffffff;
+		}
+		.fc-button:hover {
+			color: #aaa;
+		} 
+	}
+
+	.fc-widget-header {
+		border: 0px;
+	}
+
+	.fc-widget-content {
+		border-left: 0px;
+		border-bottom: 0px;
+	}
+
+	.fc-day:hover {
+		background-color: #f0f2f7
+	}
+
+	.fc-day-number {
+		background-color: white !important;
+		border-left: 1px solid #ddd !important;
+		border-right: 1px solid #ddd !important;
+	}
+
+	.fc-today {
+		border-top: 1px solid #ddd !important;
+		border-bottom: 1px solid #ddd !important;
+		border-radius: 0%;
+		font-size: 14px;
+		letter-spacing: -1px;
+		line-height: 14px;
+		color: black;
+	}
+
+}
+

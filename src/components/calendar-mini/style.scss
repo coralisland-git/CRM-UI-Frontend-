@@ -1,0 +1,110 @@
+#minicalendar {
+	padding: 15px 15px;
+	
+	.fc-other-month {
+		color: white;
+		background-color: white !important;
+		border-color: white !important;
+	}
+
+	.fc-toolbar {
+
+		background: linear-gradient(60deg, #ffffff, #ffffff);
+
+		h2 {
+			font-size: 18px;
+			font-weight: bold;
+			color: rgb(68,68,68);
+		}
+
+		.fc-button {
+			color: #aaa;
+		}
+		.fc-button:hover {
+			color: black;
+		} 
+
+		.fc-center > .fc-prev-button {
+			margin-right: 2em;
+		}
+
+		.fc-center > .fc-next-button {
+			margin-left: 2em;
+		}
+
+	}
+
+	.fc-widget-header {
+		background-color: white;
+		border: 0px;
+	}
+
+	.fc-day-header {
+		color: #aaa;
+		text-transform: uppercase;
+	}
+
+	div.fc-row.fc-widget-header {
+		margin-right: 0px !important;
+	}
+
+	.fc-basic-view .fc-body .fc-row {
+	    min-height: 3em !important;
+	}
+
+	td.fc-day {
+		border: 0px;
+	}
+	.fc-bg {
+		border: 0px;
+	}
+	.fc-widget-content {
+		border: 0px;
+	}
+
+	.fc-scroller {
+	   overflow-y: hidden !important;
+	}
+
+	.fc-day-number {
+		padding: 0px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-weight: bold;
+		text-align: center;
+		border-left: 10px solid #ffffff;
+	}
+
+	.fc-today:hover {
+		color: white;
+	}
+
+	.fc-today {
+		color: white !important;
+		background-color: white;
+	}
+
+	.fc-ev {
+		
+	}
+
+	.fc-mine {
+		background-color: #007f49;
+		color: white;
+	}
+
+	.fc-ev:before {
+		content: " "
+	}
+
+	.fc-day-grid-container.fc-scroller {
+		height: 15em !important;
+	}
+
+}
+
+
+#minicalendar-sec {
+	position: relative;
+}
+

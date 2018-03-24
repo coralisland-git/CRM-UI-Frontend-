@@ -1,0 +1,165 @@
+#contactinformation {
+
+	border : 1px solid #ddd;
+	margin-top : 20px;
+
+	#interaction {
+		padding: 0px;	
+		font-size : 24px;
+	}
+	
+	#property {
+		float : right;
+		padding: 0px;	
+		font-size : 24px;
+	}
+
+	#property1 {
+		text-align : center;
+	}
+
+
+	.border {
+		border : 1px solid #ddd;
+		padding: 40px 0px 0px 0px;
+		margin-top	: 30px;
+	}
+
+	.header {
+		padding: 0px 40px 0px 40px;
+		margin-top : -20px;
+	}
+
+	#sel-box {
+		#datepicker {
+			padding-left : 0px;
+		}
+		display : inline-flex !important;
+		select {
+			margin-right: 20px;
+		}
+
+		.flex-box {
+			margin-top : -3px;
+		}
+		input {
+			padding-left : 5px;
+			text-align : left;
+		}
+
+		i {
+			margin-top : -1px !important;
+			margin-right : 0px;
+			padding-right : 5px;
+		}
+
+		#picker {
+			width : 130px;
+		}
+		
+	}
+
+	.list-group {
+		margin-top : 20px;
+	}
+
+	.list-group-item {
+		padding: 20px;
+		border-bottom : none;
+		i {
+			margin-top : 30px;
+			color : #ddd;
+			padding-right : 20px;
+		}
+	}
+
+	img.avatar {
+		width: 80px;
+		height : 80px;
+		border-radius: 50%;
+		margin-right: 10px;
+	}
+
+	#title {
+		margin-top : -30px;
+		display : inline-grid;
+		margin : 5px 0px 0px 15px;
+		padding-right : 30px;
+		span {
+			margin : 0px;
+		}
+	}
+
+	.direction {
+		color : #ddd;
+	}
+
+	#picker {
+		margin-top: 0px;
+		height : 25px;
+		input {
+			margin-left	: 10px;
+			margin-top : -10px;
+		}
+	}
+
+	.datepicker_tool {
+		display : inline;
+		#picker {
+			width : 130px;
+		}
+		padding : 10px;
+		span {
+			margin-right : 20px;
+		}
+		i {
+			margin-top : -1px !important;
+			padding-right : 5px;
+		}
+
+		.flex-box {
+			margin-top : -3px;
+		}
+		input {
+			padding-left : 5px;
+			text-align : left;
+		}
+	}
+
+	.date_box {
+		display : inline-flex;
+	}
+
+	.add_bt {
+		background-color: #52e49a;
+		color : white;
+	}
+
+	.sel1 {
+		display: inline-flex;
+		margin-right: 10px;
+		.waves-effect {
+			width : 160px;
+			}
+		button {
+		}
+		.dropdown-menu {
+			top : 63px;
+			min-width : 185px;
+		}
+	}
+
+	.item {
+		width: 100%;
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+
+		}
+
+	.left {
+		display : inline-flex;
+	}
+
+}
+

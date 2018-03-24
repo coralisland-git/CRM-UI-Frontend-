@@ -1,0 +1,128 @@
+.task-modal {
+    .modal-body {
+        padding: 15px;
+    }
+
+    .modal-content {
+        padding: 40px;
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        button {
+            margin: 0px 10px 0px 10px;
+        }
+
+        .search-button {
+            background-color: #52e49a;
+            color: white !important;
+        }
+
+        .control {
+            margin-top: 20px;
+        }
+    }
+
+    .h5 {
+        font-size: 14px;
+        line-height: 1.4em;
+        margin-bottom: 15px;
+    }
+    .font-bold {
+        font-weight: bold;
+    }
+
+    .no-padding {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .dropdown-toggle {
+        padding: 0;
+    }
+
+    textarea {
+        border: none;
+        border-bottom: 1px solid #e9e9e9;
+    }
+
+    .filter-option {
+        line-height: 29px;
+        color: #777;
+        font-size: 16px;
+    }
+    .calendar-icon {
+        margin-right: 8px;
+    }
+    #datepicker input {
+        padding: 0px;
+        margin-top: -8px;
+    }
+    .datepicker {
+        text-indent: 17px;
+    }
+    #datepicker {
+        padding-left: 0px;
+        padding-right: 15px;
+    }
+    .assign-div .bootstrap-select {
+        margin-top: 12px;
+        padding-right: 0px;
+    }
+    .padding-taskmodal {
+        padding: 15px !important;
+    }
+    .modal-content .control .form-group {
+        margin-top: 0px;
+    }
+    .form-line {
+        border-bottom: none !important;
+       
+        input {
+            margin-bottom: 0px !important;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #e9e9e9;
+        }
+
+        input:focus {
+            border-bottom: 1px solid #eec239;
+        }
+    }
+    .dropdown-toggle {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .task-des {
+        border: none;
+        height: 150px;
+        font-size: 16px;
+        border-bottom: 1px solid #ddd;
+    }
+    .fa-calendar {
+        line-height: 14px;
+        color: #52e49a !important;
+        position: absolute !important;
+        top: 12px !important;
+        right: 5px !important;
+    }
+    .sel-part {
+        margin-top: 20px;
+    }
+    .des-error {
+        border-bottom: 1px solid red !important;
+    }
+    .title-error input {
+        border-bottom: 1px solid red !important;
+    }
+
+    .sel-part {
+        &:first-child {
+            padding-left: 0px;
+        }
+        &:last-child {
+            padding-right: 0px;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+#import-leads {
+	a {
+		color: #e9c215;
+	}
+	.bg-amber-custom {
+		background-color: #e9c215 !important;
+		color: #fff;
+	}
+	.input-group-csv-upload {
+		position: relative;
+		overflow: hidden;
+		display: flex;
+
+	    flex-direction: row;
+	    align-items: center;
+	    justify-content: space-between;
+    	border-bottom: 1px solid #e9c215;
+
+		input[type=file] {
+			font-size: 100px;
+			position: absolute;
+			left: 0;
+			top: 0;
+			opacity: 0;
+		}
+	}
+	label.error {
+		color: #F44336
+	}
+	.card:hover {
+		-webkit-box-shadow: none;
+	    box-shadow: none;
+	}
+}

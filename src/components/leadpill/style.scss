@@ -1,0 +1,43 @@
+.leadpill {
+	flex: 1;
+}
+.leadpill,
+.leadpill > a {
+	&:hover {
+		text-decoration: none;
+		color: #000;
+	}
+	li>& {
+		display: flex;
+	}
+	align-items: center;
+	align-self: flex-start;
+	color: #333;
+	font-family: 'lato';
+	.avatar {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		>span {
+			color: #fff;
+			font-size: 23px;
+			font-weight: 800;
+		}
+	}
+	.info {
+		display: inline-block;
+		padding-left: 35px;
+		vertical-align: middle;
+		* {
+			display: block;
+		}
+		label {
+			margin-bottom: 0;
+			font-size: 0.8em;
+		}
+	}
+
+}

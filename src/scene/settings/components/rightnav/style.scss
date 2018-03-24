@@ -1,0 +1,291 @@
+#setting-righnav{
+
+	.panel-title {
+		background-color: white;
+		border-bottom: 1px solid #ddd;
+		font-size: 14px;
+		font-weight: normal;
+		a {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+
+		a:hover {
+			color: black !important;
+		}
+
+		a:focus {
+			color: black !important;
+		}
+
+	}
+
+	.panel {
+		border: 0px !important;
+		box-shadow: none;
+	}
+
+	.panel-body {
+		border: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+
+	.heading-me {
+		font-size: 20px;
+		line-height: 28px;
+		color: rgb(68,68,68);
+		font-weight: bold;
+	}
+
+	.heading-me-first {
+		font-size: 16px;
+		line-height: 28px;
+		color: rgb(68,68,68);
+	}
+
+	.heading-profile {
+		font-size: 16px;
+		line-height: 28px;
+		color: rgb(68,68,68);
+		font-weight: bold;
+	}
+
+	.form-select {
+		margin-top: 2px;
+	}
+
+	.border-me {
+		border: 1px solid #ddd;
+	}
+
+	.border-top {
+		border-top: 1px solid #ddd;
+	}
+
+	.border-bottom {
+		border-bottom: 1px solid #ddd;
+	}
+
+	.card-me {
+		box-shadow: none;
+	}
+
+	.margin-bottom {
+		margin-bottom: 30px;
+	}
+
+	.no-padding {
+		padding: 0px;
+	}
+
+	.padding-bottom {
+		padding-bottom: 15px;
+	}
+
+	.padding-bottom-30 {
+		padding-bottom: 30px;
+	}
+
+	.no-border-bottom {
+		border-bottom: 0px;
+	}
+
+	.padding-top {
+		padding-top: 15px;
+	}
+
+	.padding-top-60 {
+		padding-top: 60px;
+	}
+
+	.padding-top-30 {
+		padding-top: 30px;
+	}
+
+	.rounded {
+		border-radius: 50%;
+	}
+
+	.margin-top-0 {
+		margin-top: 0px;
+	}
+
+	.myselectbox {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.myselectbox > .btn {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.btn-padding {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+
+	.flexing {
+		display: flex;
+	}
+
+	.padding-top-15 {
+		padding-top: 15px;
+	}
+
+	.mail_icon {
+		width: 100px;
+		height: 70px;
+	}
+
+	.label_mail {
+		padding-top: 25px;
+		padding-left: 20px;
+	}
+
+	.btn-me {
+		margin-top: 15px;
+	}
+
+	.border-bottom {
+		border-bottom: 1px solid #ddd;
+	}
+
+	.margin-top-30 {
+		margin-top: 30px;
+	}
+
+	.black {
+		color: rgb(68,68,68);
+	}
+
+	.ckeditorme {
+
+	}
+
+	.list-group a.active {
+	    background-color: #fff;
+	    color: green;
+	    font-weight: 400;
+	}
+
+	.list-group a {
+	    background-color: #fff;
+	    color: black;
+	    font-weight: 400;
+	    text-decoration: none;
+	}
+}
+
+
+.right_side {
+	border : 1px solid #ddd;
+	padding : 20px;
+
+	#team {
+		.title {
+			font-size: 1.4em;
+			border-bottom: 1px solid #ddd;
+			padding-bottom: 1rem;
+			margin-bottom: 2rem;
+		}
+
+		.part {
+		    border: 1px solid #ddd;
+
+		    p {
+		    	margin: 0;
+		    	padding: 2rem;
+		    }
+		}
+
+		.first {
+		    border-bottom: 1px solid #ddd;
+		}
+
+		.content {
+			margin-bottom: 4rem;
+		}
+
+		.bs-caret {
+			float: right;
+		}
+	}
+
+	#circle {
+		margin-top : 20px;
+		i {
+			margin-top : -10px;
+		}
+
+		img.avatar {
+			width: 60px;
+			border-radius: 50%;
+			margin-right: 10px;
+		}
+
+		.body {
+			margin-top : 20px;
+			border-bottom : 1px solid #ddd;
+		}	
+
+		.mark {
+			width: 15px;
+			height: 15px;
+			margin-top: 0px;
+			margin-right: 10px;
+			margin-bottom: 0px;
+			text-align: center;
+		    border-radius: 10rem;
+		}
+
+		.list-group-item {
+			padding-left : 0px;
+			border : none;
+			span {
+				margin-left : 10px;
+			}
+		}
+	}
+
+	#document {
+		margin-top : 20px;
+		.htxt {
+			color : #FFC107;
+		}
+
+		.file {
+			margin-top : 10px;
+		}
+
+		button i {
+			margin-top : -10px;
+		}
+	}
+
+	#tags {
+		margin-top : 20px;
+		padding-top : 20px;
+		border-top : 1px solid #ddd;
+		.htxt {
+			color : #FFC107;
+		}
+
+		.file {
+			margin-top : 10px;
+		}
+		
+		button i {
+			margin-top : -10px;
+		}
+
+		.tlist {
+			margin-top	: 20px;
+			span {
+				margin-right : 10px;
+			}
+		}
+	}
+}

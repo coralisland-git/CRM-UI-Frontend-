@@ -1,0 +1,23 @@
+#terms_conditions {
+	h5 {
+		display: inline;
+	}
+	.modal-content {
+	    padding-bottom: 20px;
+	    .modal-header {
+	    	background-color: #ff9600;
+	    	padding: 17px;
+	    	color: #fff;
+	    	button {
+	    		margin: 0;
+	    		font-size: 22px;
+	    		color: #fff;
+	    	}
+	    }
+	    .modal-footer {
+	    	button {
+	    		margin-right: 10px;
+	    	}
+	    }
+	}
+}

@@ -1,0 +1,126 @@
+#circles {
+
+	padding: 0px 20px 0px 20px;
+	i {
+		font-size : 16px !important;
+		cursor : pointer;
+	}
+
+	.font-bold {
+		line-height: 40px;
+	}
+	.border {
+		border : 1px solid #ddd;
+		padding: 20px;
+	}
+
+	.search-box {
+		.form-control {
+			margin-bottom: 0;
+		}
+	}
+
+	.list-group {
+		display: inline-block;
+	}
+
+	.list-group-item {
+		padding: 20px;
+		margin: 40px 20px 40px 30px;
+		.left {
+			display : inline-flex;
+		}
+		.item {
+			width: 100%;
+		    display: flex;
+		    justify-content: space-between;
+		    align-items: center;
+	    	.tools {
+				text-align : right;
+				padding-right : 0px;
+				padding-left : 0px;
+			}
+		}
+	}
+
+	.search {
+	    padding: 0 4rem 0 3rem;
+	    position:relative;
+	}
+
+	.mark {
+		width: 50px;
+		height: 50px;
+		margin-top: 0px;
+		margin-right: 10px;
+		margin-bottom: 0px;
+		text-align: center;
+	    border-radius: 10rem;
+	    cursor : pointer;
+	}
+
+	.mark h4 {
+		margin-top: 10px;
+		margin-left : -3px;
+		color : white;
+	}
+
+
+
+	.title {
+		margin-left: 20px;
+		color : black;
+		span {
+			color : black;
+		}
+
+		h4 {
+			margin: 5px 0px 0px 0px;
+			color : black;
+		}
+
+		a{
+			text-decoration : black;
+		}
+	}
+
+	ul .material-icons {
+	}
+
+	.testing {
+		margin: 0px 0px 0px 0px; 
+		color: #aaa;
+	    word-break: break-word;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	}
+
+	.reminder {
+		font-size : 14px !important;
+		margin: -10px 15px 20px 10px;
+	}
+
+	.search_icon{
+		position: absolute;
+		right: 4rem;
+		top: 4rem;
+		color: #ccc;
+	}
+
+	.material-icons:hover {
+		cursor: pointer;
+	}
+
+	.del-confirm {
+		padding: 40px;
+	}
+
+	.right-side {
+		right : -20px;
+	}
+}
+
+.modal-backdrop{
+	opacity: 0 !important;
+ 	z-index: 0 !important;
+}

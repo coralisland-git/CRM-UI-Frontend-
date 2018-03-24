@@ -1,0 +1,39 @@
+.Select-value-label {
+	display: flex;
+}
+
+.Select-option {
+	display: flex !important;
+}
+
+.flex-box {
+	display: flex !important;
+}
+
+.section .Select-menu-outer {
+	display: block;
+	overflow-x: hidden;
+	overflow-y: auto;
+	/*.flex-box{
+		display: flex !important;
+	}*/
+}
+
+.user-title {
+	line-height: 35px;
+}
+
+.image-select-item:hover {
+	background: #eac215;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.Select-control {
+	border: none;
+	border-bottom: 1px solid #efefef;
+
+	/*.Select-input {
+		display: none !important;
+	}*/
+}

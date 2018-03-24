@@ -1,0 +1,244 @@
+.dailytask {
+	.header{
+		position: relative;
+		label.yourdailytask {
+			color: #000;
+		}
+		.dateinfo {
+			display: inline-block;
+			span {
+				margin: 0 10px;
+			}
+			label:first-child {
+				color: #ec3;
+			}
+		}
+		.dateselect {
+			position: absolute;
+			margin: 0 !important;
+			top: -10px;
+			right: 20px;
+			.timerange {
+				width: 170px;
+				text-align: left;
+				position: relative;
+				>i {
+					position: absolute;
+					right: 20px;
+					top: 12px !important;
+					padding: 0;
+				}
+			}
+			.dropdown-menu {
+				width: 170px;
+				margin-top: -55px !important;
+			}
+		}
+	}
+
+
+	.bootstrap-select {
+		.dropdown-toggle {
+			padding-left: 12px;
+		}
+	}
+
+	.taskitem {
+		display: flex;
+		font-size: 12px;
+		padding: 10px 0;
+		>div {
+			display: flex;
+			align-self: center;
+		}
+		.checker,
+		.tasksummary,
+		.taskdescription {
+			>label {
+				color: #888;
+				&.text-danger {
+					color: #a94442;
+				}
+			}
+			>p {
+				line-height: 1.5em;
+				height: 3em;
+				word-break: break-word;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+			display: inline-block;
+			margin: 0  7px;
+			color: #999;
+			word-break: break-word;
+		}
+		.checker {
+			cursor: pointer;
+			>i {
+				border-radius: 50%;
+				border: 2px solid;
+				padding: 2px;
+				font-size: 14px;
+				font-weight: 800;
+			}
+			&:hover {
+				color: #45e5cd;
+				border-color: #45e5cd;
+			}
+		}
+		.contactssection {
+			>* {
+				align-self: center;
+			}
+			img.taskavatar {
+				width: 30px;
+				height: 30px;
+				border-radius: 50%;
+				margin: 0 7px;
+			}
+		}
+		.operators {
+			align-items: center;
+			padding: 0 !important;
+			>i {
+				font-size: 14px;
+				padding: 0 3px;
+				cursor: pointer;
+				margin-left: 7px;
+			}
+		}
+	}
+
+	.avatar {
+		min-width: 30px;
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: 10px;
+		>span {
+			color: #fff;
+			font-size: 15px;
+			font-weight: 800;
+		}
+	}
+
+	#alarm {
+		.modal-content {
+			padding : 50px;
+			.content {
+				div {
+					margin-top : 30px;
+				}
+				.weak {
+					color : #ddd;
+				}
+				padding-bottom : 30px;
+				border-bottom : 1px solid #ddd;
+			}
+
+			.date_select {
+				margin-top : 20px;
+				padding : 10px;
+				.sel_group {
+					display : inline-block;
+					margin: 5px 40px 0px 0px;
+					width : 80px;
+					select {
+						margin-top : 20px;
+					}
+				}
+
+				select {
+					border-bottom : 1px solid #ddd;
+				}
+			}
+
+			.footer {
+				margin : 20px;
+				text-align : center;
+				button {
+					margin : 0px 10px 0px 10px;
+				}
+
+				#set-smoose {
+					background-color : #45e5cd;
+					color : white;
+				}
+			}
+			.userpill {
+				display: flex;
+				align-items: center;
+				>img.avatar {
+					width: 58px;
+					border-radius: 50%;
+					margin-right: 20px;
+				}
+				>.info {
+					display: flex;
+					flex-direction: column;
+				}
+			}
+		}
+	}
+
+	#updateTask {
+		.modal-content {
+			padding : 40px;
+			.control {
+				margin-top : 20px;
+				.form-group { margin-top: 0px;
+				}
+			}
+
+			.task-des {
+				border : none;
+				height : 150px;
+				font-size : 16px;
+				border-bottom : 1px solid #ddd;
+			}
+
+			.footer {
+				text-align : center;
+				margin-top : 30px;
+				button {
+					margin: 0px 10px 0px 10px;
+				}
+			}
+
+			.sel-part {
+				display : flex;
+				margin-top : 20px;
+				>* {
+					flex: 1;
+					padding-right: 30px;
+					>div {
+						margin-top: 20px !important;
+						display: flex;
+						height: 40px !important;
+						border-bottom: 1px solid #ddd;
+					}
+				}
+				#datepicker {
+					padding-left: 0 !important;
+					padding-right: 0 !important;
+					#picker {
+						margin: 0;
+						box-shadow: none;
+					}
+				}
+				.assigned_to  {
+					border-bottom : 1px solid #ddd;
+					margin-top : 20px;
+					>button {
+						padding-left: 1px;
+					}
+				}
+			}
+
+		}
+	}
+
+}

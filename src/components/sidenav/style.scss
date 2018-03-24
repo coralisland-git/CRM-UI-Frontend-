@@ -1,0 +1,194 @@
+a.active {
+    font-weight: 800;
+}
+
+aside a {
+    border-bottom: 1px solid #103c5e;
+    text-transform: initial;
+}
+
+.sidebar .user-info {
+    padding: 60px 35px;
+    a {
+        display: block;
+        border-bottom: none;
+    }
+}
+
+aside {
+    top: 0 !important;
+    background-color: #194f7d !important;
+    height: 100vh !important;
+}
+
+.sidebar div.menu {
+    background-color: #123f66 !important;
+    height: auto;
+}
+
+li>a.toggled,
+ul.ml-menu {
+    background-color: #0d3451 !important;
+    a {
+        border-bottom: 1px solid #022e3e;
+    }
+}
+
+.slimScrollDiv {
+    overflow: visible !important;
+    height: auto !important;
+    >ul {
+        height: auto !important;
+    }
+}
+
+.slimScrollDiv>.list {
+    overflow: visible !important;
+    li {
+        width: 100%;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        min-height: 60px;
+        transition: all .5s;
+        text-transform: uppercase;
+        >a {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            color: #ffffff;
+            position: relative;
+            span {
+                margin: 0 5px;
+                color: #ffffff;
+                font-size: 13px;
+                line-height: 50px;
+            }
+        }
+    }
+    li.changelog,
+    li.privacypolicy {
+        margin-top: 20px;
+        min-height: inherit;
+        >a {
+            color: #7ad1ef;
+            text-decoration: none;
+            font-size: 14px;
+            text-transform: initial;
+            padding-left: 50px;
+            i {
+                font-size: 15px;
+                margin-top: 0 !important;
+            }
+        }
+    }
+    li.changelog {
+        margin-top: 0;
+    }
+
+}
+
+img.logo {
+    width: 100%;
+    border-radius: 0;
+}
+
+.sidebar .menu .list>li:not(.privacypolicy):not(.changelog)>a i {
+    font-size: 1.5em;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    -webkit-mask-repeat: no-repeat;
+}
+
+.sidebar .menu .list li:hover>a {
+    background: #0e446a;
+}
+
+.sidebar .menu .list>li>a i::before {
+    display: none;
+}
+
+.sidebar .menu .list>li>a i.home {
+    -webkit-mask-image: url(https://printbuilder.agentcloud.com/assets/images/icons/home.svg);
+}
+
+.sidebar .menu .list>li>a>span.leftborder {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    transition: transform .25s ease-in-out, background-color .25s ease, -webkit-transform .25s ease-in-out;
+    background: transparent;
+    transform: scaleY(.0001);
+    margin: 0;
+}
+
+.sidebar .menu .list>li>a:hover>span.leftborder {
+    transform: scaleY(1);
+}
+
+.sidebar .menu .list>li.home>a:hover>span.leftborder,
+.sidebar .menu .list>li>a:hover i.home {
+    background-color: #fff;
+}
+
+.sidebar .menu .list>li>a i.crm {
+    -webkit-mask-image: url(https://printbuilder.agentcloud.com/assets/images/icons/crm.svg);
+}
+
+.sidebar .menu .list>li.crm>a:hover>span.leftborder,
+.sidebar .menu .list>li>a:hover i.crm {
+    background-color: #f2d656
+}
+
+.sidebar .menu .list>li>a i.events {
+    -webkit-mask-image: url(https://printbuilder.agentcloud.com/assets/images/icons/events.svg);
+}
+
+.sidebar .menu .list>li.events>a:hover>span.leftborder,
+.sidebar .menu .list>li>a:hover i.events {
+    background-color: #32c2fe;
+}
+
+.sidebar .menu .list>li>a i.print-builder {
+    -webkit-mask-image: url(https://printbuilder.agentcloud.com/assets/images/icons/printbuilder.svg);
+}
+
+.sidebar .menu .list>li.print-builder>a:hover>span.leftborder,
+.sidebar .menu .list>li>a:hover i.print-builder {
+    background-color: #f59335;
+}
+
+.sidebar .menu .list>li>a i.web-builder {
+    -webkit-mask-image: url(https://printbuilder.agentcloud.com/assets/images/icons/webbuiler.svg);
+}
+
+.sidebar .menu .list>li.web-builder>a:hover>span.leftborder,
+.sidebar .menu .list>li>a:hover i.web-builder {
+    background-color: #d51744;
+}
+
+.sidebar .menu .list>li>a i.transactions {
+    -webkit-mask-image: url(https://printbuilder.agentcloud.com/assets/images/icons/transactions.svg);
+}
+
+.sidebar .menu .list>li.transactions>a:hover>span.leftborder,
+.sidebar .menu .list>li>a:hover i.transactions {
+    background-color: #4e961a;
+}
+
+.sidebar .menu .list>li>a i.screen-cast {
+    -webkit-mask-image: url(https://printbuilder.agentcloud.com/assets/images/icons/screencast.svg);
+}
+
+.sidebar .menu .list>li.screen-cast>a:hover>span.leftborder,
+.sidebar .menu .list>li>a:hover i.screen-cast {
+    background-color: #01ffdb;
+}
+
+.sidebar .menu .list li>a[aria-current="true"] {
+    background-color: #0e446a;
+}

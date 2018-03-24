@@ -1,0 +1,26 @@
+.searchbox {
+	.searchinput {
+		border-radius: 50px !important;
+		border: 1px solid #cfcfcf !important;
+		padding-left: 20px !important;
+		padding-right: 30px !important;
+		width: 310px !important;
+		&:focus {
+			border-width: 2px;
+			border-color: #80bdff;
+			box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+		}
+	}
+	display: inline-block;
+	position: relative;
+	padding-left: 20px;
+	>div {
+		margin: 0 !important;
+	}
+	>i {
+		position: absolute;
+		right: 10px;
+		top: 8px;
+		color: #cfcfcf;
+	}
+}

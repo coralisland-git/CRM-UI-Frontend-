@@ -1,0 +1,8 @@
+.header-dropdown {
+    list-style-type: none;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: black;
+}

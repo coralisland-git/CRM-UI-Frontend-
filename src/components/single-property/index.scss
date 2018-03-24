@@ -1,0 +1,46 @@
+#singleProperty {
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .item {
+        border: 1px solid #e9e9e9;
+    }
+    .table-box {
+        display: table;
+    }
+
+    .right-border {
+        border-right: 1px solid #e9e9e9;
+        padding-right: 15px;
+    }
+
+    .heading {
+        font-size: 18px;
+    }
+
+    .flex-box {
+        display: flex;
+    }
+
+    .right-heading {
+        a {
+            margin-right: 15px;
+        }
+    }
+
+    .agent-heading {
+        border: 1px solid #e9e9e9;
+        padding: 5px 10px;
+        display: flex;
+    }
+
+    .agent-heading__item {
+        margin-right: 20px;
+        padding-right: 30px;
+        border-right: 1px solid #e9e9e9;
+    }
+}
+
+
+

@@ -1,0 +1,25 @@
+#transaction {
+     img {
+ 		width : 100%;
+     	height : 100%;
+     }
+	.desc {
+	    position: absolute;
+	    top: 33%;
+    	left: 42%;
+	    text-align : center;
+
+		.comming {
+			font-size: 50px;
+		}
+
+		.contact {
+			font-size: 20px;
+   			margin-top: 45px;
+    		a {
+    			color : #3b8e0b;
+    		}
+		}
+
+	}
+}

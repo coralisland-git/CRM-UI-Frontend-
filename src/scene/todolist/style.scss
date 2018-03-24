@@ -1,0 +1,164 @@
+#todoMyList {
+	.fa-calendar {
+		line-height: 14px;
+		color: #52e49a !important;
+	}
+	.no-link {
+		text-decoration: none;
+		color: black;
+	}
+	
+	.yellow {
+		background: #eec239;
+	}
+	
+	.h-table {
+		padding: 10px 0px;
+		font-size: 18px;
+		font-weight: 500;
+		color: black;
+	}
+	.color-black {
+		color: black;
+	}
+	.full {
+		width: 100%;
+	}
+	#titleTask {
+		border-bottom: 1px solid #e9e9e9;
+
+		&:focus {
+			border-bottom: 1px solid #eec239;			
+		}
+	}
+	.form-line {
+		border-bottom: 0px !important;
+	}
+	.todolist {
+		// padding: 20px;
+		
+		.h4 {
+			color: #444444;
+		}
+
+		strong {
+			color: #444444;
+		}
+
+		.description {
+			text-align: center;
+			color: #999999;
+			width: 25%;
+			overflow-wrap: break-word;
+		}
+
+		.info {
+			label {
+				color: #b4b4b4;
+				font-size: 14px;
+			}
+
+			strong.text-uppercase {
+				font-size: 14px;
+			}
+		}
+
+		.pagetitle {
+			display: inline-block;
+			>h4 {
+				margin-bottom: 0 !important;
+			}
+			>small {
+				color: #ccc;
+			}
+		}
+		.content {
+			padding: 15px;
+		}
+
+		.border {
+			border: 1px solid #ddd;
+			margin-bottom: 20px;
+		}
+
+		>.addsection {
+			button {
+				margin-left: 20px !important;
+			}
+		}
+
+		.btn {
+			>i {
+				top: 0 !important;
+				font-size: 14px;
+				margin-right: 5px;
+				line-height: 30px;
+			}
+		}
+		i {
+			cursor : pointer;
+		}
+
+		#alarm {
+			.modal-content {
+				padding : 50px;
+				.content {
+					div {
+						margin-top : 30px;
+					}
+					.weak {
+						color : #ddd;
+					}
+					padding-bottom : 30px;
+					border-bottom : 1px solid #ddd;
+				}
+
+				.date_select {
+					margin-top : 20px;
+					padding : 10px;
+					.sel_group {
+						display : inline-block;
+						margin: 5px 40px 0px 0px;
+						width : 80px;
+						select {
+							margin-top : 20px;
+						}
+					}
+
+					select {
+						border-bottom : 1px solid #ddd;
+					}
+				}
+
+				.footer {
+					margin : 20px;
+					text-align : center;
+					button {
+						margin : 0px 10px 0px 10px;
+					}
+
+					#set-smoose {
+						background-color : #45e5cd;
+						color : white;
+					}
+				}
+
+			}
+		}
+		.search-button {
+			background-color: #52e49a;
+			color: white;
+		}
+
+	}
+	
+	.no-padding {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+
+
+
+	

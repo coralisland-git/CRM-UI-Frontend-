@@ -1,0 +1,317 @@
+#leadinfo {
+		
+	overflow : auto;
+	i {
+		font-size : 18px !important;
+	}
+
+	.header {
+		width :100%;
+		margin-top: -30px;
+		padding-bottom : 20px;
+		border-bottom : 1px solid #ddd;
+		display : inline-flex;
+		overflow : hidden;
+		min-height : 226px;
+
+		.testing {
+			max-width : 300px;
+			margin-top: 34px;
+    		position: absolute;
+		}
+	}
+
+	.leadpill {
+		span {
+			font-size : 45px;
+		}
+	}
+
+	.border {
+		border : 1px solid #ddd;
+		padding: 20px;
+	}
+
+	#title {
+		display : inline-grid;
+		margin : 60px 0px 0px 15px;
+		border-right : 1px solid #ddd;
+		min-width : 42%;
+		.header_title {
+			font-size : 20px !important;
+		}
+		span {
+			margin : 0px;
+		}
+
+		.social_media{
+			position : relative;
+			top: 54px;
+			
+			.social_icon {
+				width : 40px;
+				margin-right : 10px;
+				margin-left : 7px;
+			}
+		}
+
+		#sel-box {
+			display : inline-flex !important;
+			max-height: 50px;
+		    position: absolute;
+    		margin-top: 66px;
+    		.dropdown-backdrop {
+    			z-index: 0;
+    		}
+			.sel1 {
+				display: inline-flex;
+				margin-right: 10px;
+				.waves-effect {
+					width : 110px;
+					}
+				button:disabled {
+					cursor: default;
+				}
+				.dropdown-menu {
+					top : 64px;
+					min-width : 135px;
+					a {
+						min-width : 135px;
+						padding-right : 10px;
+						padding-left : 10px;
+					}
+				}
+
+				li {
+				height : 30px;
+				a {
+					height : 30px;
+					padding-top : 0px;
+					padding-bottom : 0px;
+				}
+			}
+			}
+		}
+
+		.mail {
+			color : #ffe042;
+		}
+
+		#social {
+			display : inline-flex;
+			top: 66px;
+    		position: relative;
+			i {
+				padding-right: 22px;
+				font-size : 32px !important;
+			}
+
+
+			#edit {
+				color : #ffe042;
+			}
+
+			.dropdown-menu.pull-right {
+				right : auto !important;
+    			left: 0 !important;
+			}
+
+			.social_active:before {
+				color : #ffe042;
+			}
+
+			#editlist {
+				width : 300px;
+				li {
+					display: inline-flex;
+					width : 100%;
+					padding : 0px 10px 0px 20px;
+					
+					.icon {
+						width:10%;
+						padding-top : 10px !important;
+						padding-right : 0px !important;
+					}
+					.editor {
+						width: 90%;
+					}
+
+					.form-group {
+						margin-top : 0px;
+					}
+
+					.form-group.form-group-lg {
+						margin-top : 0px;
+					}
+
+					button {
+						margin-right : 20px;
+					}
+				}
+
+				#ifsc {
+					margin-left : 100px;
+				}
+
+			}
+		}
+
+	}
+
+	#separator {
+		border-right: 1px solid red;
+	}
+
+	#ctrls {
+		display : inline;
+		margin-top : 80px;
+		text-align: center;
+    	width: 100%;
+		select {
+			padding : 14px;
+		}
+
+		button:disabled {
+				cursor: default;
+			}
+
+		.sel1 {
+			display: inline-flex;
+			.waves-effect {
+				width : 110px;
+				}
+			a {
+				width : 135px;
+			}
+			.dropdown-menu {
+				top: 65px;
+				min-width : 135px;
+			}
+
+			li {
+				height : 30px;
+				a {
+					height : 30px;
+					padding-top : 0px;
+					padding-bottom : 0px;
+				}
+			}
+
+		}
+
+	}
+
+	.control {
+		display : inline-flex;
+		padding : 10px 20px 10px 20px;
+		margin-top : 10px;
+		width : 50%;
+		.lab {
+			font-size : 14px !important;
+			margin-top : 12px;
+			padding-right : 50px;
+			width : 30%
+		}
+
+		.frm {
+			width : 70%;
+			font-size : 16px !important;
+		}
+
+		.form-group-lg {
+			margin-top : 0px;
+		}
+
+		.phone_number {
+			border : none;
+		}
+	}
+
+	.material-icons:hover {
+		cursor: pointer;
+	}
+
+	.save_bt {
+		background-color: #52e49a;
+		color : white;
+	}
+
+	#image {
+		margin-top: 58px;
+		margin-right: 10px;
+		cursor : pointer;
+		.avatar {
+			border-radius : 50%;
+			width  :100px;
+			height  :100px;
+		}
+	}
+
+	#file-upload {
+		display : none;
+	}
+	
+	.mark {
+		width: 100px;
+		height: 100px;
+		margin-top: 60px;
+		margin-right: 10px;
+		text-align: center;
+	    border-radius: 10rem;
+	    cursor : pointer;
+	    background-color: #bff216;
+	    color: white;
+	    font-size: 40px;
+	    line-height : 85px;
+	}
+
+	.react-tel-input{
+		margin-top : -10px;
+		margin-bottom : 10px;
+		input{
+			border : none;
+			margin-left : -40px;
+			margin-top : -20px;
+			font-size : 19px;
+			}
+		.flag-dropdown {
+			display : none;
+		}
+	}
+
+	.form-control .form-line.focused .form-label {
+		top : -10px;
+		left : 0px;
+		font-size : 12px;
+	}
+
+	.body {
+		margin-top : 20px;
+	}
+
+	.add_icon {
+	    width: 16px;
+	    height: 15px;
+	    margin-left: -14px;
+	    left: -20px;
+	    top: 36px;
+	    position: relative;
+	    cursor: pointer;
+	}
+
+	.remove_icon {
+	    color: #52e49a;
+	    width: 13px;
+	    height: 13px;
+	    margin-left: -14px;
+	    left: -24px;
+	    top: 35px;
+	    position: relative;
+	    cursor: pointer;
+	}
+
+	.crow { 
+		display : flex;
+	}
+
+}

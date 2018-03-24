@@ -1,0 +1,25 @@
+.firstjourney {
+	.modal.in {
+		display: block !important;
+		background-color: rgba(0, 0, 0, 0.3);
+	}
+	.tab-pane {
+		text-align: center;
+		ul {
+			list-style-type: none;
+		}
+	}
+	.footerbuttons {
+		display: flex;
+		a {
+			flex: 1;
+			color: #000;
+			&:last-child {
+				text-align: right;
+			}
+			&:first-child {
+				text-align: left;
+			}
+		}
+	}
+}

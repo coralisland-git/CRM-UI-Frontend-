@@ -1,0 +1,16 @@
+.header-dropdown {
+    list-style-type: none;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: black;
+}
+
+.show-tick option {
+    height: 10px;
+}
+
+.show-tick {
+	margin-top: 0px;
+}

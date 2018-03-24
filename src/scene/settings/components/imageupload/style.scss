@@ -1,0 +1,87 @@
+
+
+#profile_image {
+	img {
+		cursor: pointer;
+	}
+
+
+	.modal-dialog {
+		width: 648px;
+	}
+
+	.modal-header {
+		padding-bottom: 25px;
+		border-bottom: 2px dashed #ddd;
+	}
+
+	.modal-footer {
+		padding-top: 25px;
+		padding-bottom: 25px;
+		border-top: 2px dashed #ddd;
+		text-align: center;
+	}
+
+	.modal-title {
+		float: left;
+	}
+
+	.btn-padding {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+
+	.no-padding {
+		padding: 0px;
+	}
+
+	.point {
+		cursor: pointer;
+	}
+
+	.modal-body {
+		padding: 0px;
+	}
+
+	.crop_image {
+		margin: auto;
+		width: 200px;
+		height: 200px;
+		border: 2px dashed #ddd;
+	}
+
+	.camera {
+		position: absolute;
+		width: 20px;
+		bottom: 20px;
+		left: 45%;
+		z-index: 2;
+		color: white;
+	}
+
+	input[type="file"] {
+	    display: none;
+	}
+
+	.custom-file-upload {
+	  cursor: pointer;
+	}
+
+	.padding-top-100 {
+		padding-top: 100px;
+	}
+
+	#cropper {
+		width: 648px;
+		height: 400px;
+	}
+
+	.cr-slider {
+		display: none;
+	}
+
+	.cr-viewport {
+		border: 2px dashed #ddd;
+	}
+
+}

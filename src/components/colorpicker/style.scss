@@ -1,0 +1,41 @@
+
+
+.colorpickercomponent {
+	
+	.i_color {
+		margin-right: 22px;
+		width: 18px !important;
+    height: 18px !important;
+    border-radius: 9px;
+    cursor: pointer;
+	}
+
+	.i_color_lg {
+		margin-right: 22px;
+		width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+    cursor: pointer;
+	}
+
+	#pickerme {
+		width: 300px;
+	}
+
+	.white {
+		color: white;
+	}
+
+	.margin-top-5 {
+		margin-top: 5px;
+	}
+
+	.padding-top-8 {
+		padding-top: 8px;
+	}
+
+	.no-padding {
+		padding: 0px;
+	}
+
+}
