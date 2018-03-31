@@ -1,10 +1,9 @@
 ## Get Started
 
 1. **Initial Machine Setup**. First time running the starter kit? Then complete the [Initial Machine Setup
-2. **Clone the project**. `git clone https://github.com/agentcloudre/CRM.git`.
-3. **Run the setup script**. `npm run setup`
-4. **Run the example app**. `npm start -s`
-5. **Having issues?** See "Having Issues?" below.
+2. **Run the setup script**. `npm run setup`
+3. **Run the example app**. `npm start -s`
+4. **Having issues?** See "Having Issues?" below.
 
 ## Project Structure 
 1. **scene** pages folder (Dashboard, Inbox, ToDoList ...)
